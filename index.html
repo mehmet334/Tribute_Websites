@@ -14,85 +14,88 @@
     }
 
     body {
-      margin: 0;
-      font-family: 'Georgia', serif;
-      background-color: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
+        margin: 0;
+        font-family: 'Georgia', serif;
+        background-color: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
     }
 
     header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 140px;
-  background: url('https://upload.wikimedia.org/wikipedia/tr/3/3b/Tezer_ozlu.jpg') no-repeat center;
-  background-size: cover;
-  background-color: #e8170080;
-  color: rgb(255, 255, 255);
-  padding: 30px 0;
-  text-align: center;
-  z-index: 1000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 140px;
+        background: url('https://upload.wikimedia.org/wikipedia/tr/3/3b/Tezer_ozlu.jpg') no-repeat center;
+        background-size: cover;
+        background-color: #e8170080;
+        color: rgb(255, 255, 255);
+        padding: 30px 0;
+        text-align: center;
+        z-index: 1000;
     }
 
     header h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+        font-size: 3rem;
+        margin-bottom: 10px;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.6);
     }
 
     blockquote {
-      max-width: 600px;
-      margin: 20px auto 0;
-      font-style: italic;
-      font-size: 1.2rem;
-      border-left: 4px solid var(--accent);
-      padding-left: 15px;
-      color: white;
-      text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        max-width: 600px;
+        margin: 20px auto 0;
+        font-style: italic;
+        font-size: 1.2rem;
+        border-left: 4px solid var(--accent);
+        padding-left: 15px;
+        color: white;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.4);
     }
 
     nav {
-  position: fixed;
-  top: 140px; /* header yüksekliği kadar */
-  width: 100%;
-  background-color: var(--dark);
-  display: flex;
-  justify-content: center;
-  padding: 10px 0;
-  z-index: 1001;
+        position: fixed;
+        top: 140px; /* header yüksekliği kadar */
+        width: 100%;
+        background-color: var(--dark);
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+        z-index: 1001;
     }
 
     nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 20px;
-      font-weight: bold;
-      margin: 0 15px;
+        color: white;
+        text-decoration: none;
+        margin: 0 20px;
+        font-weight: bold;
+        margin: 0 15px;
     }
 
     nav a:hover {
-      color: var(--accent);
-      text-decoration: underline;
+        color: var(--accent);
+        text-decoration: underline;
     }
 
     main {
-  max-width: 1000px;
-  margin: 220px auto 60px; /* header + nav toplam yüksekliği kadar */
-  padding: 0 20px;
+        max-width: 1000px;
+        margin: 220px auto 60px; /* header + nav toplam yüksekliği kadar */
+        padding: 0 20px;
     }
 
     section {
-      margin-bottom: 60px;
-      scroll-margin-top: 210px;
+        margin-bottom: 60px;
+        scroll-margin-top: 210px;
     }
 
     .section-title {
-      font-size: 2rem;
-      border-left: 5px solid var(--accent);
-      padding-left: 15px;
-      margin-bottom: 30px;
+        font-size: 2rem;
+        border-left: 5px solid var(--accent);
+        padding-left: 15px;
+        margin-bottom: 30px;
     }
 
     .grid {
